@@ -48,22 +48,23 @@ header .logo {
   /* Hero design */
   .hero{
     background-color: #1F2937;
-    height: 80vh;
+    min-height: 80vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 100px 0; */
+    padding: 150px 0 100px 0;
   }
 
   .hero .hero_content{
     width: 70%;
-    height: 450px;
+    /* height: 450px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     align-content: center;
+     gap: 20px;
 }
    
 
@@ -71,7 +72,8 @@ header .logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 55%;
+    /* width: 55%; */
+    flex: 1 1 400px;
   }
 
   .hero .hero_image{
@@ -85,11 +87,12 @@ header .logo {
   }
 
   .hero .hero_text{
-    width: 45%;
+    /* width: 45%; */
+    flex: 1 1 400px;
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    padding: 20px;
+    padding-right: 20px;
+     gap:10px;
   }
 
   .hero_text h1{
@@ -120,8 +123,8 @@ header .logo {
     background-color: #fff;
     justify-content: center;
     align-items: center;
-    height: 70vh;
-    /* padding: 100px 0 150px 0; */
+    min-height: 70vh;
+    padding: 100px 0 150px 0;
   }
 
   .info .info_content{
@@ -150,6 +153,7 @@ header .logo {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  gap: 10px;
 }
 
 .info .dog{
@@ -157,7 +161,9 @@ header .logo {
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-  width: 23%;
+  flex: 1 1 200px;
+  
+  /* width: 23%; */
 }
 
 .info .dog_image{
@@ -208,7 +214,7 @@ header .logo {
     background-color: #FFF;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    min-height: 60vh;
 }
 
 .cta .content {
@@ -218,10 +224,16 @@ header .logo {
   background-color: #3882F6;
   padding: 50px;
   border-radius: 10px;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .content .cta_text {
-  width: 60%;
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* width: 60%; */
 }
 
 .cta p,h2 {
@@ -232,7 +244,8 @@ header .logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30%;
+  flex: 1 1 150px;
+  /* width: 30%; */
 }
 
 .cta_button a{
