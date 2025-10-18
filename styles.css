@@ -44,6 +44,10 @@ header .logo {
     font-size: 18px;
   }
 
+  nav a:hover{
+    color: rgba(255, 255, 255, 1);
+  }
+
 
   /* Hero design */
   .hero{
@@ -280,4 +284,20 @@ footer{
 
 footer p {
   color: #FFF;
+}
+
+
+/* back to top */
+
+.back-to-top{
+  display: flex;
+  justify-content: center;
+  background-color: #1F2937;
+  border-radius: 50%;
+  position: fixed;
+  border: solid 2px #FFF;
+  right: 20px;
+  bottom: 50px;
+  padding: 10px;
+  font-size: 20px;
 }
