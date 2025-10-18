@@ -46,6 +46,8 @@ header .logo {
 
   nav a:hover{
     color: rgba(255, 255, 255, 1);
+    transform: translateY(-10px);
+    transition: transform 0.9s ease;
   }
 
 
@@ -124,6 +126,8 @@ header .logo {
     background-color: #FFF;
     color: #3882F6;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.50);
+    transform: translateY(-5px);
+  transition: transform 0.3s ease;
   }
  
 
@@ -176,7 +180,13 @@ header .logo {
   /* width: 23%; */
 }
 
-
+.info .dog:hover{
+  transform: translateY(-10px);
+  transition: transform 0.9s ease;
+  transform: translateY(-10px);
+  transition: transform 0.9s ease;
+  /* width: 23%; */
+}
 
 .info .dog_image{
     background-color: #E5E7EB;
@@ -271,6 +281,8 @@ header .logo {
   background-color: #FFF;
   color:#3882F6;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.20);
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
 }
 
 
