@@ -327,6 +327,7 @@ header .logo {
 
 .cta p,h2 {
   color: #FFF;
+  text-align: left;
 }
 
 .content .cta_button{
@@ -361,7 +362,7 @@ header .logo {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     gap: 10px;
   }
 
@@ -380,6 +381,12 @@ header .logo {
   flex: 1 1 0px;
   /* width: 30%; */
 }
+
+.cta p, h2 {
+  text-align: center;
+}
+
+
 
 }
 
