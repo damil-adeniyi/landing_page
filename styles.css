@@ -166,7 +166,7 @@ header .logo {
   transition: transform 0.3s ease;
   }
 
-  @media (max-width: 800px){
+  @media (max-width: 760px){
     .hero .hero_content{
       flex-direction: column;
     }
@@ -180,6 +180,15 @@ header .logo {
     .hero_text .cta-button{
       width: 60%;
     }
+
+   .hero .hero_image{
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: top;
+    object-fit: cover;
+    border-radius: 10px;
+  }
   }
  
 
@@ -281,6 +290,12 @@ header .logo {
     text-align: right;
 }
 
+@media (max-width: 760px){
+  .quote blockquote {
+    font-size: 24px;
+  }
+}
+
 
 /* cta design  */
 .cta {
@@ -337,6 +352,37 @@ header .logo {
   transition: transform 0.3s ease;
 }
 
+@media (max-width: 760px){
+  .cta{
+    padding: 50px 0;
+  }
+  .cta .content {
+    min-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .content .cta_button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 0px;
+  /* width: 30%; */
+}
+
+.content .cta_text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 0px;
+  /* width: 30%; */
+}
+
+}
+
 
 /* footer design */
 
@@ -377,7 +423,7 @@ footer p {
   transition: transform 0.3s ease;
 }
 
-@media (max-width: 600px){
+@media (max-width: 760px){
   .back-to-top{
   display: flex;
   justify-content: center;
