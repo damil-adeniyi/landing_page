@@ -115,6 +115,12 @@ header .logo {
     width: 30%;
     text-align: center;
   }
+
+  .cta-button:hover{
+    background-color: #FFF;
+    color: #3882F6;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.50);
+  }
  
 
   /* info design */
@@ -248,11 +254,17 @@ header .logo {
   /* width: 30%; */
 }
 
-.cta_button a{
+.cta_button .join-button{
  border: solid 2px #fff;
  padding: 10px 30px;
  border-radius: 10px;
  color: #fff;
+}
+
+.join-button:hover{
+  background-color: #FFF;
+  color:#3882F6;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.20);
 }
 
 
