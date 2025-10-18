@@ -163,7 +163,7 @@ header .logo {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
 }
 
 .info .dog{
@@ -175,6 +175,8 @@ header .logo {
   
   /* width: 23%; */
 }
+
+
 
 .info .dog_image{
     background-color: #E5E7EB;
@@ -232,7 +234,7 @@ header .logo {
   display: flex;
   justify-content: center;
   background-color: #3882F6;
-  padding: 50px;
+  padding: 100px 50px;
   border-radius: 10px;
   flex-wrap: wrap;
   gap: 10px;
