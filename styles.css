@@ -30,6 +30,7 @@
    top: 0px;
    width: 100%;
    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+   padding: 20px 0;
  }
 
 
@@ -40,6 +41,10 @@ header .logo {
    color: #F9FAF8;
    font-size: 24px;
    font-weight: 700;
+ }
+
+ .logo img{
+  height: 60px;
  }
 
  nav {
