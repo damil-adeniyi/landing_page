@@ -167,8 +167,13 @@ header .logo {
   }
 
   @media (max-width: 760px){
+    .hero{
+    padding: 150px 0 50px 0;
+  }
+
     .hero .hero_content{
       flex-direction: column;
+      width: 80%;
     }
 
     .hero .hero_image_container,
@@ -260,6 +265,17 @@ header .logo {
     background-position: top;
   }
 
+  @media (max-width: 760px){
+    .info {
+    min-height: auto;
+    padding: 50px 0 50px 0;
+  }
+
+    .info .info_content{
+      width: 80%;
+    }
+  }
+
 
   /* quote design  */
   .quote {
@@ -293,6 +309,15 @@ header .logo {
 @media (max-width: 760px){
   .quote blockquote {
     font-size: 24px;
+  }
+
+  .quote .quote_content {
+    width: 80%;
+  }
+
+  .quote {
+    min-height: auto;
+    padding: 50px 0;
   }
 }
 
