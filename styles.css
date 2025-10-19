@@ -465,12 +465,12 @@ footer p {
   display: flex;
   justify-content: center;
   background-color: #1F2937;
-  border-radius: 50%;
+  border-radius: 15px;
   position: fixed;
   border: solid 2px #FFF;
   right: 20px;
-  bottom: 50px;
-  padding: 10px;
+  bottom: 20px;
+  padding: 15px;
   font-size: 20px;
 }
 }
